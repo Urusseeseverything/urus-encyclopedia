@@ -1,0 +1,299 @@
+/* =========================
+   GENERAL
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f8f9fa;
+    color: #202122;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.site-header {
+    background: #ffffff;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 18px 7%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.site-title a {
+    color: #202122;
+    text-decoration: none;
+}
+
+.site-subtitle {
+    color: #54595d;
+    font-size: 14px;
+}
+
+.search {
+    margin-left: auto;
+}
+
+.search input {
+    padding: 8px;
+    width: 220px;
+    border: 1px solid #a2a9b1;
+}
+
+.search button {
+    padding: 8px 12px;
+    border: 1px solid #72777d;
+    background: #eaecf0;
+    cursor: pointer;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.main-nav {
+    padding: 10px 7%;
+    background: #eaecf0;
+    border-bottom: 1px solid #c8ccd1;
+}
+
+.main-nav a {
+    margin-right: 25px;
+    color: #3366cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   PAGE
+   ========================= */
+
+.page-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.article {
+    background: #ffffff;
+    padding: 35px 45px;
+    border: 1px solid #c8ccd1;
+    min-height: 1000px;
+}
+
+.article h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.article h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 27px;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    margin-top: 40px;
+}
+
+.article h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.article h3 a {
+    color: #202122;
+    text-decoration: none;
+}
+
+.article p {
+    max-width: 900px;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+    color: #3366cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   INFOBOX
+   ========================= */
+
+.infobox {
+    float: right;
+    width: 300px;
+    margin: 0 0 25px 35px;
+    border: 1px solid #a2a9b1;
+    background: #f8f9fa;
+    font-size: 14px;
+}
+
+.infobox-title {
+    background: #eaecf0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.infobox-row {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    border-bottom: 1px solid #c8ccd1;
+}
+
+.infobox-row strong {
+    padding: 8px;
+}
+
+.infobox-row span {
+    padding: 8px;
+}
+
+
+/* =========================
+   CONTENTS
+   ========================= */
+
+.contents {
+    display: inline-block;
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 15px 25px;
+    margin: 20px 0;
+}
+
+.contents ol {
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   TOOLTIPS
+   ========================= */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+
+    position: absolute;
+    z-index: 10;
+
+    width: 270px;
+
+    background: #202122;
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 4px;
+
+    bottom: 130%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    transition: opacity 0.2s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* =========================
+   REFERENCES
+   ========================= */
+
+.references {
+    font-size: 14px;
+}
+
+.references li {
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background: #eaecf0;
+    border-top: 1px solid #a2a9b1;
+    padding: 25px 7%;
+    color: #54595d;
+    font-size: 13px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .search input {
+        width: 70%;
+    }
+
+    .infobox {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .article {
+        padding: 25px 20px;
+    }
+
+}
