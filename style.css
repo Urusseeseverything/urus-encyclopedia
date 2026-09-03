@@ -1,144 +1,37 @@
-/* =========================
-   GENERAL
-   ========================= */
+/* =========================================
+   URUS ENCYCLOPEDIA
+   Main stylesheet
+   ========================================= */
+
+
+/* ---------- General ---------- */
 
 * {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    background: #f8f9fa;
-    color: #202122;
+    padding: 0;
+
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
+    font-size: 15px;
+    line-height: 1.65;
 
-
-/* =========================
-   HEADER
-   ========================= */
-
-.site-header {
-    background: #ffffff;
-    border-bottom: 1px solid #a2a9b1;
-    padding: 18px 7%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.site-title {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.site-title a {
     color: #202122;
-    text-decoration: none;
-}
-
-.site-subtitle {
-    color: #54595d;
-    font-size: 14px;
-}
-
-.search {
-    margin-left: auto;
-}
-
-.search input {
-    padding: 8px;
-    width: 220px;
-    border: 1px solid #a2a9b1;
-}
-
-.search button {
-    padding: 8px 12px;
-    border: 1px solid #72777d;
-    background: #eaecf0;
-    cursor: pointer;
+    background-color: #f8f9fa;
 }
 
 
-/* =========================
-   NAVIGATION
-   ========================= */
-
-.main-nav {
-    padding: 10px 7%;
-    background: #eaecf0;
-    border-bottom: 1px solid #c8ccd1;
-}
-
-.main-nav a {
-    margin-right: 25px;
-    color: #3366cc;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.main-nav a:hover {
-    text-decoration: underline;
-}
-
-
-/* =========================
-   PAGE
-   ========================= */
-
-.page-container {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 30px;
-}
-
-.article {
-    background: #ffffff;
-    padding: 35px 45px;
-    border: 1px solid #c8ccd1;
-    min-height: 1000px;
-}
-
-.article h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 38px;
-    font-weight: normal;
-    margin-top: 0;
-}
-
-.article h2 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 27px;
-    font-weight: normal;
-    border-bottom: 1px solid #a2a9b1;
-    margin-top: 40px;
-}
-
-.article h3 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 21px;
-    font-weight: normal;
-    margin-top: 30px;
-}
-
-.article h3 a {
-    color: #202122;
-    text-decoration: none;
-}
-
-.article p {
-    max-width: 900px;
-}
-
-
-/* =========================
-   LINKS
-   ========================= */
+/* ---------- Links ---------- */
 
 a {
-    color: #3366cc;
+    color: #0645ad;
+    text-decoration: none;
 }
 
 a:hover {
@@ -146,154 +39,480 @@ a:hover {
 }
 
 
-/* =========================
-   INFOBOX
-   ========================= */
+/* ---------- Header ---------- */
 
-.infobox {
-    float: right;
-    width: 300px;
-    margin: 0 0 25px 35px;
-    border: 1px solid #a2a9b1;
-    background: #f8f9fa;
-    font-size: 14px;
-}
-
-.infobox-title {
-    background: #eaecf0;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 21px;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px;
+.site-header {
+    background-color: #ffffff;
     border-bottom: 1px solid #a2a9b1;
 }
 
-.infobox-row {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    border-bottom: 1px solid #c8ccd1;
-}
-
-.infobox-row strong {
-    padding: 8px;
-}
-
-.infobox-row span {
-    padding: 8px;
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px 0 30px;
 }
 
 
-/* =========================
-   CONTENTS
-   ========================= */
+/* Site title */
 
-.contents {
-    display: inline-block;
-    background: #f8f9fa;
-    border: 1px solid #a2a9b1;
-    padding: 15px 25px;
-    margin: 20px 0;
+.site-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
-.contents ol {
-    margin-bottom: 0;
+.site-title a {
+    color: #202122;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: normal;
 }
 
-
-/* =========================
-   TOOLTIPS
-   ========================= */
-
-.tooltip {
-    position: relative;
-    display: inline-block;
+.site-title a:hover {
+    text-decoration: none;
 }
 
-.tooltip-text {
-    visibility: hidden;
-    opacity: 0;
-
-    position: absolute;
-    z-index: 10;
-
-    width: 270px;
-
-    background: #202122;
-    color: white;
-
-    padding: 12px;
-
-    border-radius: 4px;
-
-    bottom: 130%;
-    left: 50%;
-
-    transform: translateX(-50%);
-
-    transition: opacity 0.2s;
-}
-
-.tooltip:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
+.site-subtitle {
+    color: #54595d;
+    font-size: 13px;
+    margin-top: 2px;
 }
 
 
-/* =========================
-   REFERENCES
-   ========================= */
+/* Navigation */
 
-.references {
+.main-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.main-navigation a {
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-bottom: none;
+
+    color: #202122;
     font-size: 14px;
 }
 
-.references li {
-    margin-bottom: 12px;
+.main-navigation a:hover {
+    background-color: #f8f9fa;
+    border-color: #a2a9b1;
+    text-decoration: none;
 }
 
 
-/* =========================
-   FOOTER
-   ========================= */
+/* ---------- Main page ---------- */
 
-footer {
-    background: #eaecf0;
-    border-top: 1px solid #a2a9b1;
-    padding: 25px 7%;
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+/* Page title */
+
+.page-title-area {
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 25px;
+}
+
+.page-title-area h1 {
+    margin: 0;
+    padding-bottom: 8px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.last-updated {
+    margin: 0 0 15px 0;
     color: #54595d;
     font-size: 13px;
 }
 
 
-/* =========================
-   MOBILE
-   ========================= */
+/* ---------- Intro box ---------- */
+
+.intro-box {
+    padding: 18px 22px;
+    margin-bottom: 35px;
+
+    background-color: #ffffff;
+    border: 1px solid #c8ccd1;
+}
+
+.intro-box p {
+    margin: 0 0 12px 0;
+}
+
+.intro-box p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------- Content layout ---------- */
+
+.content-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 35px;
+}
+
+.main-column {
+    min-width: 0;
+}
+
+
+/* ---------- Headings ---------- */
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    padding-bottom: 5px;
+
+    border-bottom: 1px solid #a2a9b1;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.main-column h2:not(:first-child) {
+    margin-top: 35px;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* ---------- Article preview ---------- */
+
+.article-preview {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #c8ccd1;
+}
+
+.article-preview h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.article-preview p {
+    margin-top: 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 5px;
+
+    font-size: 14px;
+}
+
+
+/* ---------- Categories ---------- */
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.category-box {
+    padding: 18px;
+
+    background-color: #ffffff;
+    border: 1px solid #c8ccd1;
+}
+
+.category-box h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+
+    font-size: 18px;
+}
+
+.category-box p {
+    margin: 0;
+    color: #54595d;
+    font-size: 14px;
+}
+
+
+/* ---------- Sidebar ---------- */
+
+.sidebar {
+    min-width: 0;
+}
+
+.sidebar-box {
+    margin-bottom: 20px;
+    padding: 18px;
+
+    background-color: #ffffff;
+    border: 1px solid #c8ccd1;
+}
+
+.sidebar-box h3 {
+    margin: -18px -18px 15px -18px;
+    padding: 10px 14px;
+
+    background-color: #eaecf0;
+    border-bottom: 1px solid #c8ccd1;
+
+    font-size: 17px;
+}
+
+.sidebar-box p {
+    margin-top: 0;
+}
+
+.sidebar-box p:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+    margin-top: 50px;
+
+    background-color: #ffffff;
+    border-top: 1px solid #a2a9b1;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 30px;
+}
+
+.site-footer p {
+    margin: 0 0 8px 0;
+    color: #54595d;
+    font-size: 13px;
+}
+
+.site-footer .footer-small {
+    font-size: 12px;
+}
+
+
+/* =========================================
+   ENCYCLOPEDIA ARTICLE STYLES
+   ========================================= */
+
+
+/* ---------- Article header ---------- */
+
+.article-header {
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 25px;
+}
+
+.article-header h1 {
+    margin: 0;
+    padding-bottom: 8px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.article-subtitle {
+    margin: 0 0 15px 0;
+
+    color: #54595d;
+    font-size: 14px;
+}
+
+
+/* ---------- Article content ---------- */
+
+.article-content {
+    max-width: 850px;
+}
+
+.article-content p {
+    margin: 0 0 18px 0;
+}
+
+.article-content h2 {
+    margin-top: 35px;
+}
+
+.article-content h3 {
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+
+/* ---------- Infobox ---------- */
+
+.infobox {
+    float: right;
+
+    width: 290px;
+    margin: 0 0 25px 30px;
+
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+
+    font-size: 13px;
+}
+
+.infobox-title {
+    padding: 10px;
+
+    background-color: #eaecf0;
+    border-bottom: 1px solid #a2a9b1;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.infobox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infobox th,
+.infobox td {
+    padding: 7px 9px;
+    border-bottom: 1px solid #c8ccd1;
+
+    vertical-align: top;
+    text-align: left;
+}
+
+.infobox th {
+    width: 42%;
+    background-color: #f1f2f3;
+    font-weight: bold;
+}
+
+.infobox tr:last-child th,
+.infobox tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* ---------- Notes ---------- */
+
+.note {
+    color: #54595d;
+    font-size: 13px;
+}
+
+.references {
+    margin-top: 30px;
+    padding-top: 15px;
+
+    border-top: 1px solid #a2a9b1;
+}
+
+.references ol {
+    padding-left: 25px;
+}
+
+.references li {
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+
+/* ---------- See also ---------- */
+
+.see-also {
+    margin-top: 35px;
+    padding-top: 10px;
+
+    border-top: 1px solid #a2a9b1;
+}
+
+.see-also ul {
+    padding-left: 25px;
+}
+
+
+/* ---------- Tables ---------- */
+
+.wiki-table {
+    width: 100%;
+    margin: 20px 0;
+
+    border-collapse: collapse;
+
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.wiki-table th,
+.wiki-table td {
+    padding: 8px 10px;
+
+    border: 1px solid #a2a9b1;
+
+    text-align: left;
+    vertical-align: top;
+}
+
+.wiki-table th {
+    background-color: #eaecf0;
+    font-weight: bold;
+}
+
+
+/* ---------- Mobile ---------- */
 
 @media (max-width: 800px) {
 
-    .site-header {
-        flex-direction: column;
-        align-items: flex-start;
+    .header-inner,
+    .page-container,
+    .footer-inner {
+        padding-left: 18px;
+        padding-right: 18px;
     }
 
-    .search {
-        margin-left: 0;
-        width: 100%;
+    .content-grid {
+        grid-template-columns: 1fr;
     }
 
-    .search input {
-        width: 70%;
+    .sidebar {
+        order: 2;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
     }
 
     .infobox {
         float: none;
         width: 100%;
-        margin: 20px 0;
+        margin: 0 0 25px 0;
     }
 
-    .article {
-        padding: 25px 20px;
+    .page-title-area h1,
+    .article-header h1 {
+        font-size: 28px;
     }
 
+    .main-navigation a {
+        padding: 8px 10px;
+    }
 }
