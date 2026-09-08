@@ -554,3 +554,43 @@ h3 {
 .restricted-return {
     margin-top: 30px !important;
 }
+
+/* ---------- Species tables ---------- */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 25px 0 35px 0;
+}
+
+.species-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.species-table th,
+.species-table td {
+    padding: 10px 12px;
+    border: 1px solid #a2a9b1;
+    text-align: left;
+    vertical-align: top;
+}
+
+.species-table th {
+    background-color: #eaecf0;
+    font-weight: bold;
+}
+
+.species-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.see-also-list {
+    padding-left: 25px;
+}
+
+.see-also-list li {
+    margin-bottom: 8px;
+}
