@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Species Affected by the Great War — Urus Encyclopedia</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="site-header">
+        <div class="header-inner">
+
+            <div class="site-title">
+                <a href="../index.html">Urus Encyclopedia</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../history/great-war.html">History</a>
+                <a href="../gods/index.html">Gods</a>
+                <a href="#">Magic</a>
+                <a href="great-war-species.html">Species</a>
+                <a href="#">Geography</a>
+                <a href="#">News</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- Main content -->
+
+    <main class="page-container">
+
+        <!-- Page heading -->
+
+        <section class="page-heading">
+            <h1>Species Affected by the Great War</h1>
+
+            <p class="page-subtitle">
+                Extinct and severely reduced species following the Great War
+            </p>
+        </section>
+
+
+        <!-- Introduction -->
+
+        <section class="article-section">
+
+            <p>
+                The Great War had a profound impact on the biodiversity of Urus.
+                The destruction caused by the conflict affected both magical and
+                non-magical species across large portions of the known world.
+            </p>
+
+            <p>
+                Surviving historical and biological records indicate that at least
+                23 species were rendered extinct during or as a direct consequence
+                of the war. A further 42 species experienced severe population
+                decline and remain significantly reduced compared to their
+                pre-war populations.
+            </p>
+
+            <p>
+                The exact number of affected species may be considerably higher.
+                Records concerning numerous species were lost during the conflict,
+                while the classification of several populations remains disputed
+                among modern researchers.
+            </p>
+
+        </section>
+
+
+        <!-- Extinct species -->
+
+        <section class="article-section">
+
+            <h2>Extinct Species</h2>
+
+            <p>
+                The following species are currently considered extinct.
+                Their disappearance is generally associated with the Great War,
+                although the exact circumstances surrounding the extinction of
+                individual species vary.
+            </p>
+
+
+            <div class="table-container">
+
+                <table class="species-table">
+
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Species</th>
+                            <th>Classification</th>
+                            <th>Former Range</th>
+                            <th>Last Confirmed Sighting</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>6</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>7</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>9</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>10</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>11</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>12</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>13</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>14</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>15</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>16</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>17</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>18</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>19</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>20</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>21</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>22</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                        <tr>
+                            <td>23</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Former range]</td>
+                            <td>[Date / period]</td>
+                            <td>[Notes]</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- Severely reduced species -->
+
+        <section class="article-section">
+
+            <h2>Species Experiencing Severe Population Decline</h2>
+
+            <p>
+                The following 42 species survived the Great War but experienced
+                substantial population losses. Several remain endangered or
+                critically endangered in the modern era.
+            </p>
+
+
+            <div class="table-container">
+
+                <table class="species-table">
+
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Species</th>
+                            <th>Classification</th>
+                            <th>Pre-War Population</th>
+                            <th>Current Population</th>
+                            <th>Estimated Decline</th>
+                            <th>Current Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Population]</td>
+                            <td>[Population]</td>
+                            <td>[Percentage]</td>
+                            <td>[Status]</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Population]</td>
+                            <td>[Population]</td>
+                            <td>[Percentage]</td>
+                            <td>[Status]</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Population]</td>
+                            <td>[Population]</td>
+                            <td>[Percentage]</td>
+                            <td>[Status]</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>[Species name]</td>
+                            <td>[Classification]</td>
+                            <td>[Population]</td>
+                            <td>[Population]</td>
+                            <td>[Percentage]</td>
+                            <td>[Status]</td>
+                        </tr>
+
+                        <!--
+                            Copy this row until there are 42 species.
+                        -->
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- Historical records -->
+
+        <section class="article-section">
+
+            <h2>Reliability of Historical Records</h2>
+
+            <p>
+                Records concerning the populations and distribution of species
+                prior to the Great War are incomplete. The destruction of
+                archives, geographical changes, and the loss of biological
+                records make precise population estimates difficult to establish.
+            </p>
+
+            <p>
+                As a result, classifications may be revised when new historical
+                evidence is discovered.
+            </p>
+
+        </section>
+
+
+        <!-- See also -->
+
+        <section class="article-section">
+
+            <h2>See also</h2>
+
+            <ul class="see-also-list">
+
+                <li>
+                    <a href="../history/great-war.html">
+                        The Great War
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Magical Species
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Historical Geography of Urus
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Underwater Kingdoms
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+
+        <p>
+            This website is a fictional encyclopedia concerning the world of Urus.
+        </p>
+
+        <p>
+            Information may be incomplete or subject to historical revision.
+        </p>
+
+    </footer>
+
+</body>
+</html>
